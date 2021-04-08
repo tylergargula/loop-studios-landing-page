@@ -68,7 +68,7 @@ a {
 }
 
 .curiosity {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-curiosity.jpg');
+  background-image: url('../images/mobile/image-curiosity.jpg');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -87,7 +87,7 @@ a {
 }
 
 .deep-earth {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-deep-earth.jpg');
+  background-image: url('../images/mobile/image-deep-earth.jpg');
   background-repeat: no-repeat;
   background-position: top;
   -webkit-background-size: cover;
@@ -97,7 +97,7 @@ a {
 }
 
 .fisheye {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-fisheye.jpg');
+  background-image: url('../images/mobile/image-fisheye.jpg');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -122,7 +122,7 @@ a {
 }
 
 .from-above {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-from-above.jpg');
+  background-image: url('../images/mobile/image-from-above.jpg');
   background-repeat: no-repeat;
   background-position: top;
   -webkit-background-size: cover;
@@ -132,7 +132,7 @@ a {
 }
 
 .grid {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-grid.jpg');
+  background-image: url('../images/mobile/image-grid.jpg');
   background-repeat: no-repeat;
   background-position: top;
   -webkit-background-size: cover;
@@ -142,7 +142,7 @@ a {
 }
 
 .hero-image {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-hero.jpg');
+  background-image: url('../images/mobile/image-hero.jpg');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -164,7 +164,7 @@ a {
   z-index: 12;
 }
 
-.navbar-collapse {
+/* .navbar-collapse.show {
   background: #000000;
   position: fixed;
   top: 10%;
@@ -180,7 +180,7 @@ a {
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
 
-}
+} */
 
 .navbar-toggler-icon:focus {
   outline: none;
@@ -188,7 +188,7 @@ a {
 }
 
 .night-arcade {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-night-arcade.jpg');
+  background-image: url('../images/mobile/image-night-arcade.jpg');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -198,7 +198,7 @@ a {
 }
 
 .pocket-borealis {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-pocket-borealis.jpg');
+  background-image: url('../images/mobile/image-pocket-borealis.jpg');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -219,7 +219,7 @@ a {
 }
 
 .soccer-team {
-  background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/mobile/image-soccer-team.jpg');
+  background-image: url('../images/mobile/image-soccer-team.jpg');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -301,7 +301,7 @@ footer div a p {
 
   /* Images */
   .hero-image {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-hero.jpg') !important;
+    background-image: url('../images/desktop/image-hero.jpg') !important;
     background-size: contain;
   }
 
@@ -310,37 +310,37 @@ footer div a p {
   }
 
   .deep-earth {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg');
+    background-image: url('../images/desktop/image-deep-earth.jpg');
   }
 
   .night-arcade {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg');
+    background-image: url('../images/desktop/image-night-arcade.jpg');
   }
 
   .soccer-team {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg');
+    background-image: url('../images/desktop/image-soccer-team.jpg');
     background-position: inherit;
   }
 
   .grid {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-grid.jpg');
+    background-image: url('../images/desktop/image-grid.jpg');
   }
 
   .from-above {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-from-above.jpg');
+    background-image: url('../images/desktop/image-from-above.jpg');
   }
 
   .pocket-borealis {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg');
+    background-image: url('../images/desktop/image-pocket-borealis.jpg');
   }
 
   .curiosity {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-curiosity.jpg');
+    background-image: url('../images/desktop/image-curiosity.jpg');
     background-position: inherit;
   }
 
   .fisheye {
-    background-image: url('/Users/tylergargula/Documents/Web Development/Front End Mentor/loopstudios-landing-page-main/images/desktop/image-fisheye.jpg');
+    background-image: url('../images/desktop/image-fisheye.jpg');
   }
 
   /* End of Images */
