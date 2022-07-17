@@ -131,6 +131,7 @@ a {
   background-size: cover;
 }
 
+
 .grid {
   background-image: url('../images/mobile/image-grid.jpg');
   background-repeat: no-repeat;
@@ -164,7 +165,7 @@ a {
   z-index: 12;
 }
 
-/* .navbar-collapse.show {
+.show {
   background: #000000;
   position: fixed;
   top: 10%;
@@ -179,12 +180,20 @@ a {
   margin-top: -30%;
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
+  animation: hideMe 1s forwards;
+}
+@keyframes hideMe {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
-} */
 
-.navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
+.navbar-toggler {
+  border-color: transparent !important;
 }
 
 .night-arcade {
@@ -215,7 +224,7 @@ a {
   margin-top: 43%;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 
 .soccer-team {
@@ -242,6 +251,8 @@ a {
   background-color: rgb(0 0 0 / 28%);
 }
 
+
+
 /* Footer Styles  */
 .social-icon {
   list-style: none;
@@ -260,7 +271,9 @@ footer div a p {
   margin-top: 0;
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen
+
+and (min-width: 390px) {
 
   /* NAVBAR */
   .navbar-nav {
